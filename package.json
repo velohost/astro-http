@@ -1,10 +1,9 @@
 {
   "name": "astro-http",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Declarative, security-focused HTTP response headers for Astro.",
   "license": "MIT",
   "type": "module",
-
   "author": "Velohost",
   "homepage": "https://github.com/velohost/astro-http",
   "repository": {
@@ -14,7 +13,6 @@
   "bugs": {
     "url": "https://github.com/velohost/astro-http/issues"
   },
-
   "keywords": [
     "astro",
     "withastro",
@@ -26,26 +24,21 @@
     "csp",
     "middleware"
   ],
-
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     }
   },
-
   "files": [
     "dist"
   ],
-
   "scripts": {
     "build": "tsc"
   },
-
   "peerDependencies": {
     "astro": "^4.0.0 || ^5.0.0"
   },
-
   "devDependencies": {
     "@types/node": "^20.0.0",
     "typescript": "^5.0.0"
