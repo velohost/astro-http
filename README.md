@@ -205,10 +205,11 @@ If the config cannot be loaded safely, **no headers are applied**.
 
 - Astro `^4`
 - Astro `^5`
+- Astro `^6`
 
 ---
 
 ## License
 
-MIT © Velohost  
+MIT © Velohost UK Limited  
 https://github.com/velohost/astro-http
